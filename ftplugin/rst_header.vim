@@ -13,6 +13,8 @@ endfor
 
 silent! nmap <unique> <buffer> <LocalLeader>h <Plug>(rst-header)
 
+" FIXME: Add b:undo_ftplugin.
+
 if exists('s:loaded')
   finish
 endif
