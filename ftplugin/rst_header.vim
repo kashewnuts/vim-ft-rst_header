@@ -7,10 +7,10 @@
 " Usage:
 " To make or modify a header:
 "   <LocalLeader>h{level} ({level} is a number key of level.)
-" 
+"
 
 if !exists('g:rst_header_chars')
-  let g:rst_header_chars = '#*=-^'
+  let g:rst_header_chars = '#*=-^"'
 endif
 
 nnoremap <silent> <buffer> <Plug>(rst-header) <Nop>
