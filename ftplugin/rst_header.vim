@@ -10,7 +10,6 @@
 "
 
 if !exists('g:rst_header_chars')
-  let g:rst_header_chars = '#*=-"~'
   let g:rst_header_chars = '#*=-^~"'
 endif
 
